@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>麦包包官方网站网上购物!品牌包包商城一站式服务!精致女人买包包?麦包包,省钱省力省时间!</title>
+		<link href="images/favicon.ico" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" href="css/login.css">
+		<script src="js/jquery/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery/jquery.cookie.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/login.js"></script>
+		<script>
+			$(function(){
+				common.init();
+				login.init();
+			})
+		</script>
+	</head>
+	<body>
+		<div id="login_header">
+			<div class="login_wrap clearfix">
+				<div class="logo">
+					<h1>
+						<a href="index.html">麦包包</a>
+					</h1>
+				</div>
+				<div class="feedback">
+					登录时遇到问题或有改进建议
+					<a href="#">点击这里反馈>></a>
+				</div>
+			</div>
+		</div>
+		<div id="login_content">
+			<div class="cont_wrap clearfix">
+				<div class="login_img">
+					<img src="images/loginimg01.jpg" alt="">
+				</div>
+				<div class="login_box">
+					<div class="login_top">
+						<strong>用户登录</strong>
+						<p>现在还不是麦包包会员? <a href="register.html">立

@@ -1,0 +1,185 @@
+.nav_menu > a:after {
+  content: '';
+  position: absolute;
+  border: 5px solid #fff;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  right: 50px;
+  top: 16px;
+}
+
+.nav_menu .catalog_list {
+  display: none;
+}
+
+#container {
+  width: 100%;
+  padding: 20px 0;
+  background: #f0f0f0;
+}
+
+#container .wrap {
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+#container .wrap .wrap_title {
+  height: 41px;
+  line-height: 41px;
+  padding-left: 15px;
+  font-weight: bold;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+#container .wrap .register {
+  padding: 40px 0;
+}
+
+#container .wrap .register .re_box {
+  width: 570px;
+  margin: 0 auto;
+}
+
+#container .wrap .register .re_box .re {
+  padding: 8px 0;
+  height: 32px;
+  line-height: 32px;
+  position: relative;
+}
+
+#container .wrap .register .re_box .re .re_sp {
+  display: inline-block;
+  width: 23%;
+  text-align: right;
+  margin-right: 12px;
+  font-size: 14px;
+  color: #4e4e4e;
+}
+
+#container .wrap .register .re_box .re .user_name, #container .wrap .register .re_box .re .pw, #container .wrap .register .re_box .re .cpw {
+  height: 30px;
+  line-height: 30px;
+  width: 222px;
+  padding-left: 5px;
+  font-size: 16px;
+  border: 1px solid #e1e1e1;
+}
+
+#container .wrap .register .re_box .re .code {
+  width: 80px;
+  height: 30px;
+  border: 1px solid #e1e1e1;
+  padding-left: 5px;
+}
+
+#container .wrap .register .re_box .re .error {
+  width: 160px;
+  padding-left: 4px;
+  line-height: 18px;
+  vertical-align: middle;
+  margin-top: -1px;
+  color: #87b93c;
+  display: none;
+}
+
+#container .wrap .register .re_box .re .get_code {
+  display: inline-block;
+  color: #fff;
+  padding: 0 15px;
+  height: 30px;
+  background: #87b93c;
+  vertical-align: middle;
+  margin-top: -1px;
+}
+
+#container .wrap .register .re_box .re .get_code i {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border: 5px solid #fff;
+  border-right: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  margin-left: 5px;
+}
+
+#container .wrap .register .re_box .re .sub {
+  padding-left: 18px;
+  padding-right: 16px;
+  height: 30px;
+  background: #ff0000;
+  position: relative;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+#container .wrap .register .re_box .re .arrow {
+  width: 0;
+  height: 0;
+  border: 5px solid #fff;
+  border-right: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  position: relative;
+  left: -14px;
+  display: inline-block;
+}
+
+#container .wrap .register .re_box .re .re_check {
+  vertical-align: middle;
+}
+
+#container .wrap .register .re_box .re .xieyi {
+  color: #d41c4f;
+}
+
+#container .wrap .register .re_box .re .error_tip {
+  background: url("../images/error.png") no-repeat left center;
+  padding-left: 23px;
+  color: #ed1c24;
+  margin-left: 4px;
+  display: inline-block;
+}
+
+#container .wrap .register .re_box .re .correct_tip {
+  background: url("../images/correct.png") no-repeat left center;
+  padding-left: 23px;
+  height: 18px;
+  margin-left: 4px;
+  display: inline-block;
+}
+
+#container .wrap .register .re_box .re input[type='text']:focus, #container .wrap .register .re_box .re input[type='password']:focus {
+  border-color: rgba(255, 97, 97, 0.8);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px rgba(255, 97, 97, 0.6);
+  transition: all .4s ease 0s;
+}
+
+#container .wrap .register .re_box .re #butn {
+  width: 70px;
+  height: 24px;
+  line-height: 24px;
+  color: #fff;
+  vertical-align: middle;
+  display: inline-block;
+  background: #ed1c24;
+  text-align: center;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  display: none;
+}
+
+#container .wrap .register .re_box .re #idcode {
+  display: none;
+}
+
+#container .wrap .register .re_box .re .ehong-idcode-val {
+  vertical-align: middle;
+  font-size: 19px;
+  padding: 4px;
+  top: -1px;
+}
